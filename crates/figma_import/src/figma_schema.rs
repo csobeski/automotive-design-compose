@@ -184,6 +184,9 @@ pub enum LayoutGridAlignment {
     Min,
     Stretch,
     Center,
+// *** BEGIN SIRIUSXM MODIFICATION
+    Max,
+// *** END SIRIUSXM MODIFICATION
 }
 #[derive(Deserialize, Serialize, Debug, Clone)]
 #[serde(rename_all = "camelCase")]
